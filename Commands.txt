@@ -1,9 +1,9 @@
 python -m grpc_tools.protoc -I../../protos --python_out=. --pyi_out=. --grpc_python_out=. ../../protos/helloworld.proto
 
 
-python greeter_server.py
+python greetServer.py
 
-python greeter_client.py
+python greetClient.py
 
 
 
